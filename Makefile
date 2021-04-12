@@ -14,7 +14,7 @@ VPATH = $(SRCDIR)
 CC=c99
 CFLAGS=-g3 -Wall
 
-PROGRAMS := hello
+PROGRAMS := test
 
 all: $(PROGRAMS)
 
