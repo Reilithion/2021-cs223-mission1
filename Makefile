@@ -18,9 +18,10 @@ PROGRAMS := hello
 
 all: $(PROGRAMS)
 
-hello: sortedArrayPrefix.o
+test: test.o sortedArrayPrefix.o
 
 sortedArrayPrefix.o: sortedArrayPrefix.c
+test.o: test.c
 
 .PHONY: all clean
 
